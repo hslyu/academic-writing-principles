@@ -1,0 +1,4 @@
+interface:
+  display_name: "Academic Writing Principles"
+  short_description: "Revise academic prose without claim drift"
+  default_prompt: "Use $academic-writing-principles to revise this academic prose while preserving its claim, evidence, scope, and causal strength."
