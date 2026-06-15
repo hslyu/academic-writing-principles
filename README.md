@@ -1,18 +1,27 @@
-# Academic Writing Principles
+# Academic Writing Skills
 
-Codex skill for revising academic and technical prose while preserving claim structure, evidence, scope, causal strength, and paper-level coherence.
+Codex skills for planning, writing, and reviewing academic and technical prose while preserving claim structure, evidence, scope, causal strength, and engineering-style clarity.
 
 ## Layout
 
 ```text
 skills/
-└── academic-writing-principles/
+├── academic-writing-plan/
+│   ├── SKILL.md
+│   └── agents/openai.yaml
+├── academic-writing-write/
+│   ├── SKILL.md
+│   └── agents/openai.yaml
+└── academic-writing-review/
     ├── SKILL.md
-    ├── a.md
     └── agents/openai.yaml
 ```
 
-This follows the Codex skill repository layout used by the local dotfiles installer: keep installable skills under `skills/<skill-name>/`.
+## Skill Roles
+
+- `academic-writing-plan`: design the argument before drafting; use for outlines, claim maps, contribution framing, section endpoints, paragraph endpoints, evidence plans, and scope boundaries.
+- `academic-writing-write`: draft or revise prose after the intended claim is known; use for paragraph rewrites, academic style, flow, abstraction level, list control, and endpoint-preserving edits.
+- `academic-writing-review`: audit existing prose before acceptance or submission; use for overclaims, causal strength, scope, abbreviations, figures, captions, citations, AI-like surface markers, and rhetorical-frame removal.
 
 ## Local Install
 
@@ -22,4 +31,4 @@ From `~/dotfiles/codex`, run:
 ./install-skills.sh
 ```
 
-The installer copies `skills/academic-writing-principles` into `~/.codex/skills/academic-writing-principles`.
+The installer copies the three skills into `~/.codex/skills/`.

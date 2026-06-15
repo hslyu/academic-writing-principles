@@ -1,0 +1,4 @@
+interface:
+  display_name: "Academic Writing Review"
+  short_description: "Audit prose for claims and AI markers"
+  default_prompt: "Use $academic-writing-review to audit this academic prose for overclaims, scope drift, AI-like phrasing, and final submission issues."

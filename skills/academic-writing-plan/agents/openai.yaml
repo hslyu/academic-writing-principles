@@ -1,0 +1,4 @@
+interface:
+  display_name: "Academic Writing Plan"
+  short_description: "Plan claims before drafting prose"
+  default_prompt: "Use $academic-writing-plan to design the claim structure, evidence path, and scope before drafting this academic text."
