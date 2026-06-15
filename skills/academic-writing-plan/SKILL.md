@@ -1,6 +1,6 @@
 ---
 name: academic-writing-plan
-description: Use when planning academic or technical writing before drafting or rewriting: structure introductions, sections, paragraphs, claims, contribution framing, argument flow, paragraph endpoints, thesis statements, evidence plans, scope boundaries, and claim maps. Trigger for requests about what to say, how to organize a paper or section, how to frame a contribution, how to connect paragraphs, or how to prevent claim drift before prose-level editing.
+description: Use when planning academic or technical writing structure, claims, argument flow, evidence, scope, and paragraph endpoints before drafting or rewriting.
 ---
 
 # Academic Writing Plan
